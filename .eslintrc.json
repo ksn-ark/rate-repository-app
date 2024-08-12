@@ -8,17 +8,12 @@
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "babelOptions": {
-      "configFile": "cwd"
-    }
-  },
-  "env": {
-    "react-native/react-native": true
-  },
-  "parserOptions": {
     "parser": "@babel/eslint-parser",
     "ecmaVersion": 2018,
     "sourceType": "module"
+  },
+  "env": {
+    "react-native/react-native": true
   },
   "rules": {
     "react/prop-types": "off",
